@@ -1,55 +1,3 @@
-.jumbotronz {
-    border-radius: 10%;
-    border: solid 10px;
-    /* margin-top: 120px; */
-    width: 450px;
-    height: 400px;
-    background-color: #62cbc2;
-    border: white 3px solid;  
-    position: relative;
-    margin-top: 120px;
-}
-
-.logCon {
-  width: 100%;
-  height: 450px;
-  display: flex;
-  justify-content: space-evenly;
-  position: absolute;
-  flex-wrap: wrap;
-}
-
-#loginModal {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
-}
-
-#registerModal {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
-}
-
-.logInCon {
-  height: 250px;
-  width: 400px;
-  background-color: blue;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 100px;
-  margin-top: 100px;
-  border-radius: 10%;
-  background-color: #62cbc2;
-}
-
-#authB {
-  width: 100px;
-  height: 50px;
-}
-
 .tag {
   height: 400px;
   width: 450px;
@@ -61,54 +9,6 @@
     background-color: red;
     width: 600px;
     height: 400px;
-}
-
-.playnowContain {
-    width: 100%;
-    height: 450px;
-    /* justify-content: center; */
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-#userCon {
-  width: 450px;
-  height: 450px;
-  background-color: #62cbc2;
-  border-radius: 7%;
-  text-align: center;
-  margin-top: 100px;
-  padding-top: 10px;
-}
-
-.leaderB {
-  height: 400px;
-  width: 450px;
-  background-color: #62cbc2;
-  margin-top: 100px;
-  border-radius: 7%;
-  text-align: center;
-  padding-top: 25px;
-}
-
-
-
-
-
-/* .tag :hover{
-    text-decoration: none;
-    transform: scale(1.10);
-    color: purple;
-    position: relative; 
-} */
-
-.scategory {
-    width: 340px;
-    height: 250px;
-    background-color: white;
-    margin-top: 15px;
-    border: #62cbc2 solid 5px;  
 }
 
 .scatcat {
@@ -136,20 +36,10 @@
     margin-top: 165px;
 }
 
-.scategory:hover {
-    transform: scale(1.1)
-}
-
 .mcategory:hover {
     transform: scale(1.1)
 }
 
-.scatContain {
-    display: flex;
-    align-content: space-between;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
 .gif {
     width: 100%;
@@ -164,10 +54,6 @@
     height: 400px;  
     flex: center;
     border: black solid 4px;
-}
-
-body {
-    background-color: #272b2f;
 }
 
 .loader {
@@ -198,6 +84,7 @@ body {
     
     animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
   }
+
   @keyframes lds-circle {
     0%, 100% {
       animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
@@ -220,72 +107,6 @@ body {
     text-align: center;
   }
 
-  h1.ml8 {
-    font-weight: 900;
-    font-size: 4.5em;
-    color: #fff;
-    width: 3em;
-    height: 3em;
-  }
-  
-  .ml8 .letters-container {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    height: 2em;
-    text-align: center;
-  }
-  
-  .ml8 .letters {
-    position: relative;
-    z-index: 2;
-    /* display: inline-block; */
-    line-height: 0.7em;
-    right: -.05em;
-    top: -.2em;
-  }
-  
-  .ml8 .bang {
-    font-size: 1.4em;
-    top: -0.1em;
-    left: .06em;
-  }
-  
-  .ml8 .circle {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-  }
-  
-  .ml8 .circle-white {
-    width: 5em;
-    height: 5em;
-    border: 2px dashed white;
-    border-radius: 2em;
-  }
-  
-  .ml8 .circle-dark {
-    width: 4.2em;
-    height: 4.2em;
-    background-color: #272b2f;
-    border-radius: 3em;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .ml8 .circle-dark-dashed {
-    border-radius: 2.4em;
-    background-color: transparent;
-    border: 2px dashed purple;
-    width: 2.3em;
-    height: 2.3em;
-  }
+ 
 
 
